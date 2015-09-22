@@ -1,0 +1,27 @@
+{
+  "name": "linda-graham-ng",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cmichaelgraham/linda-graham-ng",
+  "authors": [
+    "Mike Graham <mgraham@technicalmedia.com>"
+  ],
+  "description": "Artist Website (Angular)",
+  "keywords": [
+    "angularjs",
+    "artist"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "angular": "~1.4.6",
+    "angular-ui-router": "~0.2.15"
+  }
+}

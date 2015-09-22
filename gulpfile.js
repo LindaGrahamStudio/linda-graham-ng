@@ -23,9 +23,9 @@ function reportChange(event){
 }
 
 gulp.task('watch', ['serve'], function() {
-  gulp.watch('./**/*.css', [browserSync.reload]).on('change', reportChange);
-  gulp.watch('./**/*.js', [browserSync.reload]).on('change', reportChange);
-  gulp.watch('.//*.html', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./*.css', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./*.js', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./*.html', [browserSync.reload]).on('change', reportChange);
 });
 
 gulp.task('serve', function() {
