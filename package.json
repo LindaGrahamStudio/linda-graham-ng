@@ -1,0 +1,28 @@
+{
+  "name": "linda-graham-ng",
+  "version": "1.0.0",
+  "description": "Artist Website (Angular)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cmichaelgraham@github.com/cmichaelgraham/linda-graham-ng.git"
+  },
+  "keywords": [
+    "artist",
+    "angularjs"
+  ],
+  "author": "cmichaelgraham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmichaelgraham/linda-graham-ng/issues"
+  },
+  "homepage": "https://github.com/cmichaelgraham/linda-graham-ng",
+  "dependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
+    "gulp-serve": "^1.2.0"
+  }
+}
