@@ -24,10 +24,10 @@
     <![endif]-->
   </head>
   <body>
-  	<div class="jumbotron">
+  	<!-- <div class="jumbotron">
 			<h1 class="text-center">Linda Graham</h1>
 			<p class="text-center"></p>
-		</div>
+		</div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    	<script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -37,11 +37,19 @@
 
 		<!-- Angular includes -->
 		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
 		<!-- App includes -->
+		<script src="app.module.js"></script>
+		<script src="app.routes.js"></script>
+		<script src="shared/nav/navController.js"></script>
+		<script src="components/home/homeController.js"></script>
+		<script src="components/portfolio/portfolioListController.js"></script>
+		<script src="components/bio-and-resume/bioAndResumeController.js"></script>
+		<script src="components/contact/contactController.js"></script>
 
 	<!-- bootstrap menu bar -->
-  <div class="navbar navbar-default" role="navigation" ng-controller="NavCtrl as nav">
+  <div class="navbar navbar-default" role="navigation" ng-controller="NavController as nav">
 		<div class="navbar-header">
 			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 		        <span class="sr-only">Toggle Navigation</span>
@@ -51,28 +59,40 @@
 		    </button>
 		    <a class="navbar-brand" href="#">
 		        <i class="fa fa-home"></i>
-		        <span>{{ nav.message }}</span>
+		        <span>Linda Graham</span>
 		    </a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    <ul class="nav navbar-nav">
-		        <li ng-class="{ active: nav.isCurrentPath('/home') }">
+		        <li ui-sref-active="active">
 		            <a 
 		            	data-toggle="collapse" 
 		            	data-target="#bs-example-navbar-collapse-1.in" 
-		            	href="#home">home</a>
+		            	ui-sref="home">Home</a>
 		        </li>
-		        <li ng-class="{ active: nav.isCurrentPath('/employee-list') }">
+		        <li ui-sref-active="active">
 		            <a 
 		            	data-toggle="collapse" 
 		            	data-target="#bs-example-navbar-collapse-1.in" 
-		            	href="#employee-list">employee list</a>
+		            	ui-sref="portfolio-list({portfolioListName: 'exhibitions'})">Exhibitions</a>
 		        </li>
-		        <li ng-class="{ active: nav.isCurrentPath('/about') }">
+		        <li  ui-sref-active="active">
 		            <a 
 		            	data-toggle="collapse" 
 		            	data-target="#bs-example-navbar-collapse-1.in" 
-		            	href="#about">about</a>
+		            	ui-sref="portfolio-list({portfolioListName: 'working-with-clay'})">Working with Clay</a>
+		        </li>
+		        <li  ui-sref-active="active">
+		            <a 
+		            	data-toggle="collapse" 
+		            	data-target="#bs-example-navbar-collapse-1.in" 
+		            	ui-sref="bio-and-resume">Bio and Resume</a>
+		        </li>
+		        <li  ui-sref-active="active">
+		            <a 
+		            	data-toggle="collapse" 
+		            	data-target="#bs-example-navbar-collapse-1.in" 
+		            	ui-sref="contact">Contact</a>
 		        </li>
 		    </ul>
 
@@ -85,6 +105,7 @@
 	</div>
 
 	<!-- placeholder for the router's views -->
+	<ui-view></ui-view>
 
   </body>
 </html>
