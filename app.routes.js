@@ -1,6 +1,6 @@
 (function(module) {
 
-	module.config(['$stateProvider', function($stateProvider) {
+	module.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 		$stateProvider
 			.state('home', {
 				url: '/',
@@ -26,6 +26,8 @@
 				controllerAs: 'contact',
 				templateUrl: 'components/contact/contactView.html'
 			});
+
+		$urlRouterProvider.otherwise('/');
 	}]);
 
 }(angular.module('app')));
