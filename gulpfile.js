@@ -26,6 +26,12 @@ gulp.task('watch', ['serve'], function() {
   gulp.watch('./*.css', [browserSync.reload]).on('change', reportChange);
   gulp.watch('./*.js', [browserSync.reload]).on('change', reportChange);
   gulp.watch('./*.html', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./components/**/*.css', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./components/**/*.js', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./components/**/*.html', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./shared/**/*.css', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./shared/**/*.js', [browserSync.reload]).on('change', reportChange);
+  gulp.watch('./shared/**/*.html', [browserSync.reload]).on('change', reportChange);
 });
 
 gulp.task('serve', function() {
