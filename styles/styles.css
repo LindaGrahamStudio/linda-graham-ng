@@ -1,3 +1,35 @@
+.home { 
+  background: url(../images/IllusiveReality-1024x682.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0;
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.push {
+	display: none;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.main-view {
+	position: absolute;
+	top: 52px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
 .navbar-nav li.loader {
     margin: 12px 24px 0 6px;
 }
