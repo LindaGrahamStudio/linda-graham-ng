@@ -51,6 +51,9 @@
 		<script src="components/bio-and-resume/bioAndResumeController.js"></script>
 		<script src="components/contact/contactController.js"></script>
 
+	<!-- placeholder for the router's views -->
+	<ui-view class="main-view"></ui-view>
+
 	<!-- bootstrap menu bar -->
   <div class="navbar navbar-default" role="navigation" ng-controller="NavController as nav">
 		<div class="navbar-header">
@@ -60,7 +63,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		    </button>
-		    <a class="navbar-brand" href="#">
+		    <a class="navbar-brand" ui-sref="home">
 		        <i class="fa fa-home"></i>
 		        <span>Linda Graham</span>
 		    </a>
@@ -106,9 +109,6 @@
 		    </ul>
 		</div>
 	</div>
-
-	<!-- placeholder for the router's views -->
-	<ui-view class="main-view"></ui-view>
 
   </body>
 </html>
