@@ -1,6 +1,12 @@
-<div class="container">
-	<div class="page-header">
-		<h1>Portfolio List: {{ portfolioList.listName }}</h1>
-		<p>exhibitions count: {{ portfolioList.exhibitionsCount }}</p>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="col-sm-6 col-md-4" ng-repeat="item in portfolioList.items">
+			<!-- <h1>{{ item.portfolioName }}</h1>
+			<p>image count: {{ item.images.length }}</p> -->
+			<a class="thumbnail">
+				<img class="img-fill" ng-src="{{ 'images/' + portfolioList.portfolioListName + '/' + item.portfolio + '/' + item.portfolioImage }}" /><br />
+				<span> {{ item.portfolioName }} </span>
+			</a>
+		</div>
 	</div>
 </div>

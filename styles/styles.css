@@ -33,3 +33,12 @@ html, body {
 .navbar-nav li.loader {
     margin: 12px 24px 0 6px;
 }
+
+.col:not(:first-child,:last-child) {
+  padding-right:7px;
+  padding-left:7px;
+}
+
+.img-fill {
+	width:100%;
+}

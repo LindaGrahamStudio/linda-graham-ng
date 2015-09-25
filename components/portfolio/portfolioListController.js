@@ -2,8 +2,8 @@
 	
 	module.controller('PortfolioListController', ['$stateParams', 'PortfolioService', function($stateParams, portfolioService) {
 		return {
-			listName: $stateParams.portfolioListName,
-			exhibitionsCount: portfolioService.portfolios.exhibitions.length
+			portfolioListName: $stateParams.portfolioListName,
+			items: portfolioService.portfolios[$stateParams.portfolioListName]
 		}
 	}]);
 
