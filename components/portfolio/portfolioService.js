@@ -8,6 +8,9 @@
 		
 		$timeout(function() {
 
+
+// electromagnetic transformation video: http://player.vimeo.com/video/73148310
+
 			portfoliosModel.portfolios = {
 				exhibitions: [
 				{
@@ -23,42 +26,61 @@
 					]
 				},
 				{
+					portfolio: 'multiverse3'
+					portfolioName: 'MULTIVERSE 3',
+					portfolioImage: 'Screen-Shot-2013-08-26-at-10.19.52-AM1-300x200.png',
 					images: [
-						{ image:'one.jpg' },
-						{ image:'two.jpg' },
-						{ image:'three.jpg' },
-						{ image:'four.jpg' },
-						{ image:'five.jpg' }
+						{ imageCaption: 'Multiverse 3', imageSmall:'Screen-Shot-2013-08-26-at-10.13.54-AM-162x162.png', imageLarge:'Screen-Shot-2013-08-26-at-10.13.54-AM.png' },
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
 					]
 				},
 				{
+					portfolio: 'electromagneticTransformation'
+					portfolioName: 'ELECTROMAGNETIC TRANSFORMATION',
+					portfolioImage: 'IceCubeGallery-300x200.jpg',
 					images: [
-						{ image:'one.jpg' },
-						{ image:'two.jpg' },
-						{ image:'three.jpg' },
-						{ image:'four.jpg' },
-						{ image:'five.jpg' }
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
+						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
+						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
+						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
+						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' },
 					]
 				}],
-				'working-with-clay': {
+				workingWithClay: [
+				{
+					portfolio: 'earlyWorks'
+					portfolioName: 'EARLY WORKS',
+					portfolioImage: 'dusk-300x200.jpg',
 					images: [
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' }
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' },
 					]
 				},
-				other: {
+				{
+					portfolio: 'laterWorks'
+					portfolioName: '2007-2011',
+					portfolioImage: 'yummy-pink-garden1-300x200.jpg',
 					images: [
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' },
-						{ image:'one.jpg' }
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
+						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
+						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
+						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
+						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' },
 					]
-				},
-			};
+				}],
 		
 		}, 4000);
 		
