@@ -1,20 +1,12 @@
 (function(module) {
 	
-	module.factory('PortfolioService', ['$timeout', function($timeout) {
+	module.factory('PortfolioService', function() {
 
 		var portfoliosModel = {
-			portfolios: {};
-		};
-		
-		$timeout(function() {
-
-
-// electromagnetic transformation video: http://player.vimeo.com/video/73148310
-
-			portfoliosModel.portfolios = {
+			portfolios: {
 				exhibitions: [
 				{
-					portfolio: 'naturalSelection'
+					portfolio: 'naturalSelection',
 					portfolioName: 'NATURAL SELECTION',
 					portfolioImage: 'ShowsPromiseWindo-Exhibit-300x200.jpg',
 					images: [
@@ -26,7 +18,7 @@
 					]
 				},
 				{
-					portfolio: 'multiverse3'
+					portfolio: 'multiverse3',
 					portfolioName: 'MULTIVERSE 3',
 					portfolioImage: 'Screen-Shot-2013-08-26-at-10.19.52-AM1-300x200.png',
 					images: [
@@ -35,20 +27,20 @@
 					]
 				},
 				{
-					portfolio: 'electromagneticTransformation'
+					portfolio: 'electromagneticTransformation',
 					portfolioName: 'ELECTROMAGNETIC TRANSFORMATION',
 					portfolioImage: 'IceCubeGallery-300x200.jpg',
 					images: [
-						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' },
 						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
 						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
 						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
-						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' },
+						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' }
 					]
 				}],
 				workingWithClay: [
 				{
-					portfolio: 'earlyWorks'
+					portfolio: 'earlyWorks',
 					portfolioName: 'EARLY WORKS',
 					portfolioImage: 'dusk-300x200.jpg',
 					images: [
@@ -66,26 +58,26 @@
 						{ imageCaption: '', imageSmall:'', imageLarge:'' },
 						{ imageCaption: '', imageSmall:'', imageLarge:'' },
 						{ imageCaption: '', imageSmall:'', imageLarge:'' },
-						{ imageCaption: '', imageSmall:'', imageLarge:'' },
+						{ imageCaption: '', imageSmall:'', imageLarge:'' }
 					]
 				},
 				{
-					portfolio: 'laterWorks'
+					portfolio: 'laterWorks',
 					portfolioName: '2007-2011',
 					portfolioImage: 'yummy-pink-garden1-300x200.jpg',
 					images: [
-						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' },
 						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
 						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
 						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
-						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' },
+						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' }
 					]
-				}],
-		
-		}, 4000);
+				}]
+			}
+		};
 		
 		return portfoliosModel;
 
-	}]);
+	});
 
 }(angular.module('app')));
