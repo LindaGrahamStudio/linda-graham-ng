@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/cmichaelgraham/linda-graham-ng",
   "dependencies": {
+    "angular-bootstrap": "^0.12.2",
     "browser-sync": "^2.9.6",
     "gulp": "^3.9.0",
     "gulp-serve": "^1.2.0"

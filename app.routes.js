@@ -20,6 +20,12 @@
 				controllerAs: 'bioAndResume',
 				templateUrl: 'components/bio-and-resume/bioAndResumeView.html'
 			})
+			.state('carousel-test', {
+				url: '/carousel-test',
+				controller: 'CarouselTestController',
+				controllerAs: 'carouselTest',
+				templateUrl: 'components/carousel-test/carouselTestView.html'
+			})
 			.state('contact', {
 				url: '/contact',
 				controller: 'ContactController',
