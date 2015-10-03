@@ -14,6 +14,29 @@
 				controllerAs: 'portfolioList',
 				templateUrl: 'components/portfolio/portfolioListView.html'
 			})
+			.state('portfolio-list.portfolio', {
+				abstract: true,
+				url: '/:portfolio',
+				template: '<ui-view></ui-view>'
+			})
+			.state('portfolio-list.portfolio.home', {
+				url: '/',
+				controller: 'PortfolioHomeController',
+				controllerAs: 'portfolioHome',
+				templateUrl: 'components/portfolio/portfolioHomeView.html'
+			})
+			.state('portfolio-list.portfolio.grid', {
+				url: '/grid',
+				controller: 'PortfolioGridController',
+				controllerAs: 'portfolioGrid',
+				templateUrl: 'components/portfolio/portfolioGridView.html'
+			})
+			.state('portfolio-list.portfolio.carousel', {
+				url: '/carousel',
+				controller: 'PortfolioCarouselController',
+				controllerAs: 'portfolioCarousel',
+				templateUrl: 'components/portfolio/portfolioCarouselView.html'
+			})
 			.state('bio-and-resume', {
 				url: '/bio-and-resume',
 				controller: 'BioAndResumeController',

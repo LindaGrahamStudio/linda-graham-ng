@@ -1,12 +1,13 @@
 <div class="container-fluid">
-	<div class="row-fluid">
+	<div class="row-fluid" ng-if="!portfolioList.selectedItem">
 		<div class="col-sm-6 col-md-4" ng-repeat="item in portfolioList.items">
 			<!-- <h1>{{ item.portfolioName }}</h1>
 			<p>image count: {{ item.images.length }}</p> -->
-			<a class="thumbnail">
+			<a class="thumbnail" ng-click="portfolioList.selectPortfolio(item)">
 				<img class="img-fill" ng-src="{{ 'images/' + portfolioList.portfolioListName + '/' + item.portfolio + '/' + item.portfolioImage }}" /><br />
 				<span> {{ item.portfolioName }} </span>
 			</a>
 		</div>
 	</div>
+	<ui-view ng-if="portfolioList.selectedItem"></ui-view>
 </div>
