@@ -70,11 +70,18 @@
 					portfolioName: '2007-2011',
 					portfolioImage: 'yummy-pink-garden1-300x200.jpg',
 					images: [
-						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' },
-						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
-						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
-						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
-						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' }
+						{ imageCaption: 'Close Up', imageSmall:'CloseUp-162x162.jpg', imageLarge:'CloseUp-501x500.jpg' },
+						{ imageCaption: 'Garden Gourd', imageSmall:'Garden-Gourd-162x162.jpg', imageLarge:'Garden-Gourd-750x500.jpg' },
+						{ imageCaption: 'Genetic Dispersment', imageSmall:'genetic-dispersment-162x162.jpg', imageLarge:'genetic-dispersment-333x500.jpg' },
+						{ imageCaption: 'Genetic Gems 2 Detail', imageSmall:'Genetic-Gems-2-Detail-162x162.jpg', imageLarge:'Genetic-Gems-2-Detail-644x500.jpg' },
+						{ imageCaption: 'Genetic Gems', imageSmall:'Genetic-Gems-162x162.jpg', imageLarge:'Genetic-Gems-638x500.jpg' },
+						{ imageCaption: 'Gestures', imageSmall:'Gestures-162x162.jpg', imageLarge:'Gestures-610x500.jpg' },
+						{ imageCaption: 'Lyrical Lines 1', imageSmall:'LyricalLines1-162x162.jpg', imageLarge:'LyricalLines1-666x500.jpg' },
+						{ imageCaption: 'Lyrical Lines 2', imageSmall:'LyricalLines2-162x162.jpg', imageLarge:'LyricalLines2-666x500.jpg' },
+						{ imageCaption: 'Mock Jungle', imageSmall:'Mock-Jungle-162x162.jpg', imageLarge:'Mock-Jungle-333x500.jpg' },
+						{ imageCaption: 'Sex in the Garden', imageSmall:'Sex-in-the-Garden-162x162.jpg', imageLarge:'Sex-in-the-Garden-750x500.jpg' },
+						{ imageCaption: 'Whats in a Gene', imageSmall:'Whats-in-a-Gene-162x162.jpg', imageLarge:'Whats-in-a-Gene-500x500.jpg' },
+						{ imageCaption: 'Yummy Pink Garden 1', imageSmall:'yummy-pink-garden1-162x162.jpg', imageLarge:'yummy-pink-garden1-500x500.jpg' }
 					]
 				}]
 			}
