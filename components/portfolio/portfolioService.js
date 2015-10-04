@@ -3,6 +3,7 @@
 	module.factory('PortfolioService', function() {
 
 		var portfoliosModel = {
+			currentPortfolio: null,
 			portfolios: {
 				exhibitions: [
 				{
@@ -76,6 +77,10 @@
 			}
 		};
 		
+		portfoliosModel.setCurrentPortfolio = function(portfolio) {
+			portfoliosModel.currentPortfolio = portfolio;
+		}
+
 		return portfoliosModel;
 
 	});

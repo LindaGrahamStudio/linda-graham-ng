@@ -10,6 +10,11 @@
 			})
 			.state('portfolio-list', {
 				url: '/portfolio-list/:portfolioListName',
+				abstract: true,
+				template: '<ui-view></ui-view>'
+			})
+			.state('portfolio-list.list', {
+				url: '/',
 				controller: 'PortfolioListController',
 				controllerAs: 'portfolioList',
 				templateUrl: 'components/portfolio/portfolioListView.html'

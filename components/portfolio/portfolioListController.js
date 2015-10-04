@@ -6,13 +6,15 @@
 			items: portfolioService.portfolios[$stateParams.portfolioListName]
 		};
 
+		var svc = portfolioService;
+
 		plc.selectPortfolio = selectPortfolio;
 
 		function selectPortfolio(item) {
-			plc.selectedItem = item;
+			svc.setCurrentPortfolio(item);
 			$state.go('portfolio-list.portfolio.home', {
 				portfolioListName: plc.portfolioListName,
-				portfolio: plc.selectedItem.portfolio
+				portfolio: svc.currentPortfolio.portfolio
 			}, {});
 		}
 

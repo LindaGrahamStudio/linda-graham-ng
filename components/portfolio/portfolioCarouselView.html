@@ -1,2 +1,12 @@
 <portfolio-nav></portfolio-nav>
-<h2>Portfolio Carousel: {{ portfolioCarousel.portfolioName }}</h2>
+<h3>{{ portfolioCarousel.currentPortfolio.portfolioName }}</h3>
+<div style="height: 305px">
+  <carousel interval="portfolioCarousel.myInterval" no-wrap="portfolioCarousel.noWrapSlides">
+    <slide ng-repeat="image in portfolioCarousel.currentPortfolio.images" active="slide.active">
+      <img ng-src="images/{{ portfolioCarousel.portfolioListName }}/{{ portfolioCarousel.currentPortfolio.portfolio }}/{{ image.imageLarge }}" style="margin:auto;" />
+      <div class="carousel-caption">
+        <h4>{{ image.imageCaption }}</h4>
+      </div>
+    </slide>
+  </carousel>
+</div>
