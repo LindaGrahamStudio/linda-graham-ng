@@ -2,8 +2,10 @@
 	
 	module.controller('PortfolioGridController', ['$stateParams', 'PortfolioService', '$state', function($stateParams, portfolioService, $state) {
 		var phc = {
+			currentPortfolio: portfolioService.currentPortfolio,
 			portfolioName: $stateParams.portfolio,
-			portfolioTemplate: 'components/portfolio/templates/' + $stateParams.portfolio + '.html'
+			portfolioListName: $stateParams.portfolioListName,
+			portfolioTemplate: 'components/portfolio/templates/' + $stateParams.portfolio + '.html',
 		};
 
 		return phc;
