@@ -2,12 +2,15 @@
 <div class="portfolio-view">
   <carousel style="position:absolute; top:0; left:0; right:0; bottom:0" interval="portfolioCarousel.myInterval" no-wrap="portfolioCarousel.noWrapSlides">
     <slide ng-repeat="image in portfolioCarousel.currentPortfolio.images" active="image.active">
-    	<div style="width: 100%; height: 100%; background-color: #C0C0C0;">
+    	<div style="width: 100%; height: 100%; background-color: #C0C0C0;" ng-show="image.imageLarge">
 	      <img style="max-width: 100%; max-height: 100%" ng-src="images/{{ portfolioCarousel.portfolioListName }}/{{ portfolioCarousel.currentPortfolio.portfolio }}/{{ image.imageLarge }}" style="margin:auto;" />
 	      <div class="carousel-caption">
 	        <h4>{{ image.imageCaption }}</h4>
 	      </div>
-	     </div>
+      </div>
+    	<div style="width: 100%; height: 100%; background-color: #C0C0C0;" ng-show="!image.imageLarge">
+	        <iframe src="http://player.vimeo.com/video/73148310" style="width: 85%; height: 85%;" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
     </slide>
   </carousel>
 </div>
