@@ -4,6 +4,7 @@
 
 		var portfoliosModel = {
 			currentPortfolio: null,
+
 			portfolios: {
 				exhibitions: [
 				{

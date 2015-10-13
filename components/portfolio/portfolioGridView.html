@@ -2,7 +2,7 @@
 <h3>{{ portfolioGrid.currentPortfolio.portfolioName }}</h3>
 <div class="container-fluid">
 	<div class="row-fluid">
-		<div  style="float: left; text-overflow: ellipsis; width: 200px; overflow: hidden; white-space: nowrap" ng-repeat="image in portfolioGrid.currentPortfolio.images">
+		<div  style="float: left; text-overflow: ellipsis; width: 200px; overflow: hidden; white-space: nowrap" ng-repeat="image in portfolioGrid.currentPortfolio.images" ng-click="portfolioGrid.showImage($index)">
 	    <h4 style="width:160px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; position: relative; top: 8px">
 	    	{{ image.imageCaption }}
 	    </h4>

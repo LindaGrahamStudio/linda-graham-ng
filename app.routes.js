@@ -37,7 +37,7 @@
 				templateUrl: 'components/portfolio/portfolioGridView.html'
 			})
 			.state('portfolio-list.portfolio.carousel', {
-				url: '/carousel',
+				url: '/carousel/:slideIndex',
 				controller: 'PortfolioCarouselController',
 				controllerAs: 'portfolioCarousel',
 				templateUrl: 'components/portfolio/portfolioCarouselView.html'

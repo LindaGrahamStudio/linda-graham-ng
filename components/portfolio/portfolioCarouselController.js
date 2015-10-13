@@ -10,6 +10,18 @@
 			noWrapSlides: false
 		};
 
+		o.setSlide = function(slideIndex) {
+			for (ii in o.currentPortfolio.images) {
+				if (ii == slideIndex) {
+					o.currentPortfolio.images[ii].active = true;
+				} else {
+					delete o.currentPortfolio.images[ii].active;
+				}
+			}
+		}
+
+		o.setSlide($stateParams.slideIndex || 0);
+
 		return o;
 	}]);
 

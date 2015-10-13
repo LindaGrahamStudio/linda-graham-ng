@@ -8,6 +8,10 @@
 			portfolioTemplate: 'components/portfolio/templates/' + $stateParams.portfolio + '.html',
 		};
 
+		phc.showImage = function(imageIndex) {
+			$state.go('portfolio-list.portfolio.carousel', {slideIndex: imageIndex});
+		};
+
 		return phc;
 	}]);
 
