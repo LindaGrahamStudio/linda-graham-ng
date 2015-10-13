@@ -30,6 +30,31 @@ html, body {
 	bottom: 0;
 	right: 0;
 }
+
+.portfolio-view {
+	position: absolute;
+	top:52px;
+	left: 15px;
+	bottom: 15px;
+	right: 15px;
+}
+
+.carousel-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.carousel-inner .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
 .navbar-nav li.loader {
     margin: 12px 24px 0 6px;
 }
