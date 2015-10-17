@@ -25,7 +25,7 @@
 					portfolioImage: 'Screen-Shot-2013-08-26-at-10.19.52-AM1-300x200.png',
 					images: [
 						{ imageCaption: 'Multiverse 3', imageSmall:'Screen-Shot-2013-08-26-at-10.13.54-AM-162x162.png', imageLarge:'Screen-Shot-2013-08-26-at-10.13.54-AM.png' },
-						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' }
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://content.jwplatform.com/players/RJS7Qcdi-S3u9V5Nq.html' }
 					]
 				},
 				{
@@ -33,7 +33,7 @@
 					portfolioName: 'ELECTROMAGNETIC TRANSFORMATION',
 					portfolioImage: 'IceCubeGallery-300x200.jpg',
 					images: [
-						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' },
+						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://content.jwplatform.com/players/RJS7Qcdi-S3u9V5Nq.html' },
 						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'IllusiveReality2-333x500.jpg' },
 						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
 						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
@@ -52,14 +52,30 @@
 						{ imageCaption: 'Ice', imageSmall:'IceFolder.jpg', imageLarge:'IceCover.jpg' },
 						{ imageCaption: 'Intergalactic Maze', imageSmall:'IntergalacticMazeFolder.jpg', imageLarge:'IntergalacticMazeCover.jpg' },
 						{ imageCaption: 'Negative Spaces', imageSmall:'NegativeSpacesFolder.jpg', imageLarge:'NegativeSpacesCover.jpg' },
-						{ imageCaption: 'Portals', imageSmall:'PortalsFolder.jpg', imageLarge:'PortalsCover.jpg' }
+						{ imageCaption: 'Portals', imageSmall:'PortalsFolder.jpg', imageLarge:'PortalsCover.jpg' },
+						{ videoCaption: 'My Modern Aesthetic', imageSmall:'VideoIcon.jpg', videoLarge:'http://content.jwplatform.com/players/gxvp9GtL-S3u9V5Nq.html' }
 					]
 				},
 				{
-					portfolio: 'personalPerspectives',
-					portfolioName: 'PERSONAL PERSPECTIVES',
-					portfolioImage: 'IceCubeGallery-300x200.jpg',
+					portfolio: 'personalPerceptions',
+					portfolioName: 'PERSONAL PERCEPTIONS',
+					portfolioImage: 'Personal Perceptions front.jpg',
 					images: [
+						{ imageCaption: 'PP #1', imageSmall:'PP1folder.jpg', imageLarge:'PP1cover.jpg' },
+						{ imageCaption: 'PP #2', imageSmall:'PP2folder.jpg', imageLarge:'PP2cover.jpg' },
+						{ imageCaption: 'PP #3', imageSmall:'PP3folder.jpg', imageLarge:'PP3cover.jpg' },
+						{ imageCaption: 'PP #4', imageSmall:'PP4folder.jpg', imageLarge:'PP4cover.jpg' },
+						{ imageCaption: 'PP #5', imageSmall:'PP5folder.jpg', imageLarge:'PP5cover.jpg' },
+						{ imageCaption: 'PP #6', imageSmall:'PP6folder.jpg', imageLarge:'PP6cover.jpg' },
+						{ imageCaption: 'PP #7', imageSmall:'PP7folder.jpg', imageLarge:'PP7cover.jpg' },
+						{ imageCaption: 'PP #8', imageSmall:'PP8folder.jpg', imageLarge:'PP8cover.jpg' },
+						{ imageCaption: 'PP #9', imageSmall:'PP9folder.jpg', imageLarge:'PP9cover.jpg' },
+						{ imageCaption: 'PP #10', imageSmall:'PP10folder.jpg', imageLarge:'PP10cover.jpg' },
+						{ imageCaption: 'PP #11', imageSmall:'PP11folder.jpg', imageLarge:'PP11cover.jpg' },
+						{ imageCaption: 'PP #12', imageSmall:'PP12folder.jpg', imageLarge:'PP12cover.jpg' },
+						{ imageCaption: 'PP #13', imageSmall:'PP13folder.jpg', imageLarge:'PP13cover.jpg' },
+						{ imageCaption: 'PP #14', imageSmall:'PP14folder.jpg', imageLarge:'PP14cover.jpg' },
+						{ imageCaption: 'PP #15', imageSmall:'PP15folder.jpg', imageLarge:'PP15cover.jpg' }
 					]
 				},
 				{
@@ -76,7 +92,8 @@
 						{ imageCaption: 'Resilience: B', imageSmall:'ResilienceBFolder.jpg', imageLarge:'ResilienceBCover.jpg' },
 						{ imageCaption: 'Resilience: C', imageSmall:'ResilienceCFolder.jpg', imageLarge:'ResilienceCCover.jpg' },
 						{ imageCaption: 'Transition: Entry', imageSmall:'TransitionEntryFolder.jpg', imageLarge:'TransitionEntryCover.jpg' },
-						{ imageCaption: 'Transition: ScreenShot', imageSmall:'TransitionScreenShotFolder.png', imageLarge:'TransitionScreenShotCover.png' }
+						{ imageCaption: 'Transition: ScreenShot', imageSmall:'TransitionScreenShotFolder.png', imageLarge:'TransitionScreenShotCover.png' },
+						{ videoCaption: 'Exodus Animation', imageSmall:'VideoIcon.jpg', videoLarge:'http://content.jwplatform.com/players/InPrbxuD-S3u9V5Nq.html' }
 					]
 				}],
 				workingWithClay: [
