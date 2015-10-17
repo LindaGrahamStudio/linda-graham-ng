@@ -1,5 +1,5 @@
 (function(module) {
-	
+
 	module.factory('PortfolioService', function() {
 
 		var portfoliosModel = {
@@ -34,10 +34,49 @@
 					portfolioImage: 'IceCubeGallery-300x200.jpg',
 					images: [
 						{ videoCaption: 'Multiverse 3', imageSmall:'video-162x162.png', videoLarge:'http://player.vimeo.com/video/73148310' },
-						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'' },
+						{ imageCaption: 'Illusive Reality', imageSmall:'IllusiveReality2-162x162.jpg', imageLarge:'IllusiveReality2-333x500.jpg' },
 						{ imageCaption: 'Evolving Multiverses', imageSmall:'Evolving-Multiverses-162x162.jpg', imageLarge:'Evolving-Multiverses-333x500.jpg' },
 						{ imageCaption: 'Serenity', imageSmall:'Serenity-162x162.jpg', imageLarge:'Serenity-333x500.jpg' },
 						{ imageCaption: 'Reflections Deep Space', imageSmall:'Reflections-Deep-Space-162x162.jpg', imageLarge:'Reflections-Deep-Space-333x500.jpg' }
+					]
+				},
+				{
+					portfolio: 'myModernAesthetic',
+					portfolioName: 'MY MODERN AESTHETIC',
+					portfolioImage: 'GalleryViewFront.jpg',
+					images: [
+						{ imageCaption: 'Coney Island', imageSmall:'ConeyIslandFolder.jpg', imageLarge:'ConeyIslandCover.jpg' },
+						{ imageCaption: 'Dualities', imageSmall:'DualitiesFolder.jpg', imageLarge:'DualitiesCover.jpg' },
+						{ imageCaption: 'Euclids Leftovers', imageSmall:'EuclidsLeftoversFolder.jpg', imageLarge:'EuclidsLeftoversCover.jpg' },
+						{ imageCaption: 'Euclids Study', imageSmall:'EuclidsStudyFolder.jpg', imageLarge:'EuclidsStudyCover.jpg' },
+						{ imageCaption: 'Ice', imageSmall:'IceFolder.jpg', imageLarge:'IceCover.jpg' },
+						{ imageCaption: 'Intergalactic Maze', imageSmall:'IntergalacticMazeFolder.jpg', imageLarge:'IntergalacticMazeCover.jpg' },
+						{ imageCaption: 'Negative Spaces', imageSmall:'NegativeSpacesFolder.jpg', imageLarge:'NegativeSpacesCover.jpg' },
+						{ imageCaption: 'Portals', imageSmall:'PortalsFolder.jpg', imageLarge:'PortalsCover.jpg' }
+					]
+				},
+				{
+					portfolio: 'personalPerspectives',
+					portfolioName: 'PERSONAL PERSPECTIVES',
+					portfolioImage: 'IceCubeGallery-300x200.jpg',
+					images: [
+					]
+				},
+				{
+					portfolio: 'binaries',
+					portfolioName: 'BINARIES',
+					portfolioImage: 'BinaryFront.jpg',
+					images: [
+						{ imageCaption: 'Dystopia', imageSmall:'DystopiaFolder.jpg', imageLarge:'DystopiaCover.jpg' },
+						{ imageCaption: 'Dystopia: Escape', imageSmall:'DystopiaEscapeFolder.jpg', imageLarge:'DystopiaEscapeCover.jpg' },
+						{ imageCaption: 'Dystopia: Fletcher Mural', imageSmall:'DystopiaFletcherMuralFolder.jpg', imageLarge:'DystopiaFletcherMuralCover.jpg' },
+						{ imageCaption: 'Gallery: Binaries Poster', imageSmall:'GalleryBinariesPosterFolder.png', imageLarge:'GalleryBinariesPosterCover.png' },
+						{ imageCaption: 'Gallery: Signage', imageSmall:'GallerySignageFolder.jpg', imageLarge:'GallerySignageCover.jpg' },
+						{ imageCaption: 'Resilience: A', imageSmall:'ResilienceAFolder.jpg', imageLarge:'ResilienceACover.jpg' },
+						{ imageCaption: 'Resilience: B', imageSmall:'ResilienceBFolder.jpg', imageLarge:'ResilienceBCover.jpg' },
+						{ imageCaption: 'Resilience: C', imageSmall:'ResilienceCFolder.jpg', imageLarge:'ResilienceCCover.jpg' },
+						{ imageCaption: 'Transition: Entry', imageSmall:'TransitionEntryFolder.jpg', imageLarge:'TransitionEntryCover.jpg' },
+						{ imageCaption: 'Transition: ScreenShot', imageSmall:'TransitionScreenShotFolder.png', imageLarge:'TransitionScreenShotCover.png' }
 					]
 				}],
 				workingWithClay: [
@@ -87,7 +126,7 @@
 				}]
 			}
 		};
-		
+
 		portfoliosModel.setCurrentPortfolio = function(portfolio) {
 			portfoliosModel.currentPortfolio = portfolio;
 		}
