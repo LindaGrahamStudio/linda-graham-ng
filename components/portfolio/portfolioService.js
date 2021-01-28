@@ -140,6 +140,44 @@
 						{ imageCaption: 'Whats in a Gene', imageSmall:'Whats-in-a-Gene-162x162.jpg', imageLarge:'Whats-in-a-Gene-500x500.jpg' },
 						{ imageCaption: 'Yummy Pink Garden 1', imageSmall:'yummy-pink-garden1-162x162.jpg', imageLarge:'yummy-pink-garden1-500x500.jpg' }
 					]
+				},
+				{
+					portfolio: 'teapots',
+					portfolioName: 'teapots 2016-2019',
+					portfolioImage: 'TeaPot2.jpg',
+					images: [
+						{ imageCaption: 'Detail 18b', imageSmall:'Detail18b 162x162.jpg', imageLarge:'Detail18b.jpg' },
+						{ imageCaption: 'Flying Teapots Lost in the Woods', imageSmall:'flying teapots lost in the woods 162x162.jpg', imageLarge:'flying teapots lost in the woods.jpg' },
+						{ imageCaption: 'Flying Blue', imageSmall:'flyingblue 162x162.jpg', imageLarge:'flyingblue.jpg' },
+						{ imageCaption: 'Image 1', imageSmall:'image1 162x162.jpg', imageLarge:'image1.jpg' },
+						{ imageCaption: 'Image 1 Detail B', imageSmall:'image1detailb 162x162.jpg', imageLarge:'image1detailb.jpg' },
+						{ imageCaption: 'Image 2', imageSmall:'image2 162x162.jpg', imageLarge:'image2.jpg' },
+						{ imageCaption: 'Image 3b', imageSmall:'image3b 162x162.jpg', imageLarge:'image3b.jpg' },
+						{ imageCaption: 'Image 3 Detail B', imageSmall:'Image3Detailb 162x162.jpg', imageLarge:'Image3Detailb.jpg' },
+						{ imageCaption: 'Teapot 2', imageSmall:'TeaPot2 162x162.jpg', imageLarge:'TeaPot2.jpg' },
+						{ imageCaption: 'Teapot 18a', imageSmall:'teapot18a 162x162.jpg', imageLarge:'teapot18a.jpg' },
+						{ imageCaption: 'Yellow Green B Entry', imageSmall:'yellowgreenbEntry 162x162.jpg', imageLarge:'yellowgreenbEntry.jpg' },
+						{ imageCaption: 'Yellow Org', imageSmall:'yelloworg 162x162.jpg', imageLarge:'yelloworg.jpg' }
+					]
+				},
+				{
+					portfolio: 'carvedPorcelainSlip',
+					portfolioName: 'carved porcelain slip 2019-present',
+					portfolioImage: '01_October 22, 2020.jpg',
+					images: [
+						{ imageCaption: 'Close Up', imageSmall:'CloseUp-162x162.jpg', imageLarge:'CloseUp-501x500.jpg' },
+						{ imageCaption: 'Garden Gourd', imageSmall:'Garden-Gourd-162x162.jpg', imageLarge:'Garden-Gourd-750x500.jpg' },
+						{ imageCaption: 'Genetic Dispersment', imageSmall:'genetic-dispersment-162x162.jpg', imageLarge:'genetic-dispersment-333x500.jpg' },
+						{ imageCaption: 'Genetic Gems 2 Detail', imageSmall:'Genetic-Gems-2-Detail-162x162.jpg', imageLarge:'Genetic-Gems-2-Detail-644x500.jpg' },
+						{ imageCaption: 'Genetic Gems', imageSmall:'Genetic-Gems-162x162.jpg', imageLarge:'Genetic-Gems-638x500.jpg' },
+						{ imageCaption: 'Gestures', imageSmall:'Gestures-162x162.jpg', imageLarge:'Gestures-610x500.jpg' },
+						{ imageCaption: 'Lyrical Lines 1', imageSmall:'LyricalLines1-162x162.jpg', imageLarge:'LyricalLines1-666x500.jpg' },
+						{ imageCaption: 'Lyrical Lines 2', imageSmall:'LyricalLines2-162x162.jpg', imageLarge:'LyricalLines2-666x500.jpg' },
+						{ imageCaption: 'Mock Jungle', imageSmall:'Mock-Jungle-162x162.jpg', imageLarge:'Mock-Jungle-333x500.jpg' },
+						{ imageCaption: 'Sex in the Garden', imageSmall:'Sex-in-the-Garden-162x162.jpg', imageLarge:'Sex-in-the-Garden-750x500.jpg' },
+						{ imageCaption: 'Whats in a Gene', imageSmall:'Whats-in-a-Gene-162x162.jpg', imageLarge:'Whats-in-a-Gene-500x500.jpg' },
+						{ imageCaption: 'Yummy Pink Garden 1', imageSmall:'yummy-pink-garden1-162x162.jpg', imageLarge:'yummy-pink-garden1-500x500.jpg' }
+					]
 				}]
 			}
 		};

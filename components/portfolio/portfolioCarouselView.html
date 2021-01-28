@@ -3,7 +3,7 @@
   <carousel style="position:absolute; top:0; left:0; right:0; bottom:0" interval="portfolioCarousel.myInterval" no-wrap="portfolioCarousel.noWrapSlides">
     <slide ng-repeat="image in portfolioCarousel.currentPortfolio.images" active="image.active">
     	<div class="portfolio-carousel-image-container" ng-show="image.imageLarge">
-	      <img class="portfolio-carousel-image" ng-src="images/{{ portfolioCarousel.portfolioListName }}/{{ portfolioCarousel.currentPortfolio.portfolio }}/{{ image.imageLarge }}" style="margin:auto;" />
+	      <img class="portfolio-carousel-image" ng-src="images/{{ portfolioCarousel.portfolioListName }}/{{ portfolioCarousel.currentPortfolio.portfolio }}/{{ image.imageLarge }}" style="margin:auto; object-fit:contain" />
 	      <div class="carousel-caption">
 	        <h4>{{ image.imageCaption }}</h4>
 	      </div>
