@@ -54,6 +54,12 @@
 				controllerAs: 'carouselTest',
 				templateUrl: 'components/carousel-test/carouselTestView.html'
 			})
+			.state('publications', {
+				url: '/publications',
+				controller: 'PublicationsController',
+				controllerAs: 'publications',
+				templateUrl: 'components/publications/publicationsView.html'
+			})
 			.state('contact', {
 				url: '/contact',
 				controller: 'ContactController',

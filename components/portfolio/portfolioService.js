@@ -165,18 +165,41 @@
 					portfolioName: 'carved porcelain slip 2019-present',
 					portfolioImage: '01_October 22, 2020.jpg',
 					images: [
-						{ imageCaption: 'Close Up', imageSmall:'CloseUp-162x162.jpg', imageLarge:'CloseUp-501x500.jpg' },
-						{ imageCaption: 'Garden Gourd', imageSmall:'Garden-Gourd-162x162.jpg', imageLarge:'Garden-Gourd-750x500.jpg' },
-						{ imageCaption: 'Genetic Dispersment', imageSmall:'genetic-dispersment-162x162.jpg', imageLarge:'genetic-dispersment-333x500.jpg' },
-						{ imageCaption: 'Genetic Gems 2 Detail', imageSmall:'Genetic-Gems-2-Detail-162x162.jpg', imageLarge:'Genetic-Gems-2-Detail-644x500.jpg' },
-						{ imageCaption: 'Genetic Gems', imageSmall:'Genetic-Gems-162x162.jpg', imageLarge:'Genetic-Gems-638x500.jpg' },
-						{ imageCaption: 'Gestures', imageSmall:'Gestures-162x162.jpg', imageLarge:'Gestures-610x500.jpg' },
-						{ imageCaption: 'Lyrical Lines 1', imageSmall:'LyricalLines1-162x162.jpg', imageLarge:'LyricalLines1-666x500.jpg' },
-						{ imageCaption: 'Lyrical Lines 2', imageSmall:'LyricalLines2-162x162.jpg', imageLarge:'LyricalLines2-666x500.jpg' },
-						{ imageCaption: 'Mock Jungle', imageSmall:'Mock-Jungle-162x162.jpg', imageLarge:'Mock-Jungle-333x500.jpg' },
-						{ imageCaption: 'Sex in the Garden', imageSmall:'Sex-in-the-Garden-162x162.jpg', imageLarge:'Sex-in-the-Garden-750x500.jpg' },
-						{ imageCaption: 'Whats in a Gene', imageSmall:'Whats-in-a-Gene-162x162.jpg', imageLarge:'Whats-in-a-Gene-500x500.jpg' },
-						{ imageCaption: 'Yummy Pink Garden 1', imageSmall:'yummy-pink-garden1-162x162.jpg', imageLarge:'yummy-pink-garden1-500x500.jpg' }
+						{ imageCaption: 'Wall Display', imageSmall:'01_October 22, 2020 162x162.jpg', imageLarge:'01_October 22, 2020.jpg' },
+					]
+				}],
+				digital: [
+				{
+					portfolio: 'digital',
+					portfolioName: 'DIGITAL',
+					portfolioImage: '02_October 22, 2020.jpg',
+					images: [
+						{ imageCaption: 'Digital', imageSmall:'02_October 22, 2020 162x162.jpg', imageLarge:'02_October 22, 2020.jpg' },
+						{ imageCaption: 'Arvada Triptik', imageSmall:'ArvadaTriptik 162x162.jpg', imageLarge:'ArvadaTriptik.jpg' },
+						{ imageCaption: 'Complex Star 6', imageSmall:'complexstar6 162x162.jpg', imageLarge:'complexstar6.jpg' },
+						{ imageCaption: 'Explosive Pathogenesis 2', imageSmall:'Graham_Linda_ExplosivePathogenesis2 162x162.jpg', imageLarge:'Graham_Linda_ExplosivePathogenesis2.jpg' },
+						{ imageCaption: 'Lightbox Card', imageSmall:'lightboxcard 162x162.jpg', imageLarge:'lightboxcard.jpg' },
+						{ imageCaption: 'Lightbox Group 2', imageSmall:'lightboxgroup2 162x162.jpg', imageLarge:'lightboxgroup2.jpg' },
+						{ imageCaption: 'Lightbox Big', imageSmall:'ligjtboxbig 162x162.jpg', imageLarge:'ligjtboxbig.jpg' },
+						{ imageCaption: 'Snail 16', imageSmall:'snail16 162x162.jpg', imageLarge:'snail16.jpg' },
+						{ imageCaption: 'Snail Diamond Old Basic', imageSmall:'snaildimondoldbasic 162x162.jpg', imageLarge:'snaildimondoldbasic.jpg' },
+						{ imageCaption: 'Star Purple', imageSmall:'SubtleStarpurple 162x162.jpg', imageLarge:'SubtleStarpurple.jpg' },
+					]
+				}],
+				acrylic: [
+				{
+					portfolio: 'acrylic',
+					portfolioName: 'ACRYLIC',
+					portfolioImage: '05_October 22, 2020.jpg',
+					images: [
+						{ imageCaption: 'Acrylic', imageSmall:'05_October 22, 2020 162x162.jpg', imageLarge:'05_October 22, 2020.jpg' },
+						{ imageCaption: 'Digital Design Card', imageSmall:'DigitalDesignCard 162x162.jpg', imageLarge:'DigitalDesignCard.jpg' },
+						{ imageCaption: 'EXTINCTION', imageSmall:'EXTINCTION 162x162.jpg', imageLarge:'EXTINCTION.jpg' },
+						{ imageCaption: '5', imageSmall:'GrahamL_5 162x162.jpg', imageLarge:'GrahamL_5.jpg' },
+						{ imageCaption: 'Interior', imageSmall:'interior 162x162.jpg', imageLarge:'interior.jpg' },
+						{ imageCaption: '7', imageSmall:'GrahamL_7 162x162.jpg', imageLarge:'GrahamL_7.jpg' },
+						{ imageCaption: 'Interior 2', imageSmall:'interior2 162x162.jpg', imageLarge:'interior2.jpg' },
+						{ imageCaption: '9', imageSmall:'GrahamL_9 162x162.jpg', imageLarge:'GrahamL_5.jpg' },
 					]
 				}]
 			}

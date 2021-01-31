@@ -49,6 +49,7 @@
 		<script src="components/bio-and-resume/bioAndResumeController.js"></script>
 		<script src="components/carousel-test/carouselTestController.js"></script>
 		<script src="components/contact/contactController.js"></script>
+		<script src="components/publications/publicationsController.js"></script>
 
 	<!-- placeholder for the router's views -->
 	<ui-view class="main-view"></ui-view>
@@ -87,6 +88,18 @@
 		            	data-target="#bs-example-navbar-collapse-1.in" 
 		            	ui-sref="portfolio-list.list({portfolioListName: 'workingWithClay'})">Ceramics</a>
 		        </li>
+		        <li  ui-sref-active="active">
+		            <a 
+		            	data-toggle="collapse" 
+		            	data-target="#bs-example-navbar-collapse-1.in" 
+		            	ui-sref="portfolio-list.list({portfolioListName: 'digital'})">Digital</a>
+		        </li>
+		        <li  ui-sref-active="active">
+		            <a 
+		            	data-toggle="collapse" 
+		            	data-target="#bs-example-navbar-collapse-1.in" 
+		            	ui-sref="portfolio-list.list({portfolioListName: 'acrylic'})">Acrylic</a>
+		        </li>
 		        <!-- <li  ui-sref-active="active">
 		            <a 
 		            	data-toggle="collapse" 
@@ -98,7 +111,13 @@
 		            	data-toggle="collapse" 
 		            	data-target="#bs-example-navbar-collapse-1.in" 
 		            	ui-sref="carousel-test">Carousel Test</a>
-		        </li> -->
+				</li> -->
+				<li  ui-sref-active="active">
+		            <a 
+		            	data-toggle="collapse" 
+		            	data-target="#bs-example-navbar-collapse-1.in" 
+		            	ui-sref="publications">Publications</a>
+		        </li>
 		        <li  ui-sref-active="active">
 		            <a 
 		            	data-toggle="collapse" 

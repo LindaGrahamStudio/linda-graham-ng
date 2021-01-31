@@ -1,0 +1,12 @@
+<!-- <div class="container"> -->
+	<div class="page-header">
+		<h1>Publications</h1>
+		<div class="publication-container">
+			<div class="publication" ng-repeat="p in publications.publications">
+				<img 
+					class="publication-image" 
+					ng-src="{{p.image}}"
+					ng-click="publications.launchPublication(p)">
+			</div>
+		</div>
+		</div>

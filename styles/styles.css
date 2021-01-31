@@ -84,3 +84,15 @@ html, body {
 .img-fill {
 	width:100%;
 }
+
+.publication-container {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.publication-image {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
