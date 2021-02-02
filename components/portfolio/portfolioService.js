@@ -146,18 +146,18 @@
 					portfolioName: 'teapots 2016-2019',
 					portfolioImage: 'TeaPot2.jpg',
 					images: [
-						{ imageCaption: 'Detail 18b', imageSmall:'Detail18b 162x162.jpg', imageLarge:'Detail18b.jpg' },
 						{ imageCaption: 'Flying Teapots Lost in the Woods', imageSmall:'flying teapots lost in the woods 162x162.jpg', imageLarge:'flying teapots lost in the woods.jpg' },
-						{ imageCaption: 'Flying Blue', imageSmall:'flyingblue 162x162.jpg', imageLarge:'flyingblue.jpg' },
-						{ imageCaption: 'Image 1', imageSmall:'image1 162x162.jpg', imageLarge:'image1.jpg' },
-						{ imageCaption: 'Image 1 Detail B', imageSmall:'image1detailb 162x162.jpg', imageLarge:'image1detailb.jpg' },
-						{ imageCaption: 'Image 2', imageSmall:'image2 162x162.jpg', imageLarge:'image2.jpg' },
-						{ imageCaption: 'Image 3b', imageSmall:'image3b 162x162.jpg', imageLarge:'image3b.jpg' },
-						{ imageCaption: 'Image 3 Detail B', imageSmall:'Image3Detailb 162x162.jpg', imageLarge:'Image3Detailb.jpg' },
+						{ imageCaption: '10”x5.5”x4.5”', imageSmall:'flyingblue 162x162.jpg', imageLarge:'flyingblue.jpg' },
+						{ imageCaption: '5”x5”x2”', imageSmall:'image1 162x162.jpg', imageLarge:'image1.jpg' },
+						{ imageCaption: '5”x5”x2” detail', imageSmall:'image1detailb 162x162.jpg', imageLarge:'image1detailb.jpg' },
+						{ imageCaption: '7”x10”x4”', imageSmall:'image2 162x162.jpg', imageLarge:'image2.jpg' },
+						{ imageCaption: '7”x5”x3”', imageSmall:'image3b 162x162.jpg', imageLarge:'image3b.jpg' },
+						{ imageCaption: '7”x5”x3” detail', imageSmall:'Image3Detailb 162x162.jpg', imageLarge:'Image3Detailb.jpg' },
 						{ imageCaption: 'Teapot 2', imageSmall:'TeaPot2 162x162.jpg', imageLarge:'TeaPot2.jpg' },
-						{ imageCaption: 'Teapot 18a', imageSmall:'teapot18a 162x162.jpg', imageLarge:'teapot18a.jpg' },
-						{ imageCaption: 'Yellow Green B Entry', imageSmall:'yellowgreenbEntry 162x162.jpg', imageLarge:'yellowgreenbEntry.jpg' },
-						{ imageCaption: 'Yellow Org', imageSmall:'yelloworg 162x162.jpg', imageLarge:'yelloworg.jpg' }
+						{ imageCaption: '7”x9”x4.5”', imageSmall:'teapot18a 162x162.jpg', imageLarge:'teapot18a.jpg' },
+						{ imageCaption: '7”x9”x4.5”', imageSmall:'Detail18b 162x162.jpg', imageLarge:'Detail18b.jpg' },
+						{ imageCaption: '8”x8”x5”', imageSmall:'yellowgreenbEntry 162x162.jpg', imageLarge:'yellowgreenbEntry.jpg' },
+						{ imageCaption: '11”x8”x4”', imageSmall:'yelloworg 162x162.jpg', imageLarge:'yelloworg.jpg' }
 					]
 				},
 				{
